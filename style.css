@@ -1,0 +1,77 @@
+body { 
+    margin: 0; 
+    padding-top: 800px; 
+    text-align: center; 
+}
+.profile {
+       border-radius: 50%;
+}
+#welcome {
+    position: absolute;
+    bottom: 0;
+    background:linear-gradient(#f207f2 0%, #32d1c9 100%);
+  display: table;  
+  width: 100%;
+  height: 100%;
+
+}
+.line{
+    height: 6px;
+    width:70px;
+    margin: 8px auto;
+    background-color:hotpink;
+}
+#bio{
+    padding :50px;
+    font-family: 'Grape Nuts', cursive;
+    font-size:400px;
+    font-size:medium;
+}
+.menu{ 
+    position: fixed;
+    z-index:10;
+    top:0px;
+   background:white;
+    margin-top: 0px;
+width:100%;
+
+}
+.links{
+display: inline;
+    font-family:sans-serif;
+    font-size:20px;
+    padding-left:9px;
+    padding-right:9px;
+
+}
+#name{
+font-size: 40px;
+font-family: 'Babylonica', cursive;
+}
+.parallax-inner{
+    display: table-cell;
+    vertical-align:middle;
+}
+h1{
+    font-size: 40px;
+    font-family: 'Rubik Moonrocks', cursive;
+font-weight: 300;
+}
+h2{
+    font-size: 30px;
+font-family: 'Babylonica', cursive;
+font-weight: 300;
+}
+a {
+ text-decoration: none;
+}
+.links:hover{
+font-size: 25px;
+text-decoration:underline;
+}
+#contact{
+    background: lightgrey;
+}
+#contact_1 h3{
+    display: inline;
+}
